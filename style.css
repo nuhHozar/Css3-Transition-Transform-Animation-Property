@@ -1,0 +1,30 @@
+/*Transition  4 ana özelliği vardır
+1-Transition property (hangi özellikte geçiş olacağını belirtir)
+2-Transition duration (geçişin ne kadar süreceğini belirtir)
+3-Transition timing function (geçişin hız eğrisini belirtir)
+4-Transition delay (geçişin ne zaman başlayacağını belirtir)*/
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    cursor: pointer;
+    margin-top: 30px;
+    /*transition kısa yöntem*/
+    transition: width 2s ease 3s,
+                background 2s ease 1s;
+    /*transition-property: width;
+    transition-duration: 2000ms;/*1 saniye = 1000ms*/
+    transition-timing-function: cubic-bezier(.12, .84, .76,.4); 
+    transition-delay: 3s; */
+    /*bu uzun yöntem*/
+}
+.box:hover{
+    width: 300px;
+    background: green;
+}
+
