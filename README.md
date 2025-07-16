@@ -1,5 +1,19 @@
 # Css3-Transition-Transform-Animation-Property
 Css3 Transition ,Transform,Animation Property
+CSS3 transition kullanımı
+Geçiş efekti uygulamak için transition özelliğine iki değer verilmesi gerekiyor.
+
+1-Efektin uygulanacağı CSS özelliği
+2-Geçiş efekti süresi
+CSS3 transition-timing-functiongenel bazı özellikler{
+
+ease – Yavaş bir başlangıç, ardından hızlı, daha sonra yavaş yavaş sona eren geçiş efekti belirtir. (Varsayılan)
+linear – Başlangıç ve bitişi aynı hızda bir geçiş efekti belirtir.
+ease-in – Yavaş bir başlangıç geçiş efekti belirtir.
+ease-out – Yavaş bir bitiş geçiş efekti belirtir.
+ease-in-out – Yavaş başlangıç-bitiş geçiş efekti belirtir.
+cubic-bezier(n,n,n,n) – Bezier yöntemi ile zaman belirlememizi sağlar.]
+
 resources to benefit from
 1-https://www.w3schools.com/css/default.asp
 2-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
